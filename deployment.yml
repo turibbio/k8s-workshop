@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: myapp-frontend
-          image:  apomic80/myapp:v1
+          image:  __ACR__/myapp:v1
           ports:
             - containerPort: 80
           env:
